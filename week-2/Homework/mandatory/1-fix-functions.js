@@ -1,10 +1,10 @@
 // The below functions are syntactically correct but not outputting the right results.
 // Look at the tests and see how you can fix them.
 
-function mood() {
-  let isHappy = true;
+function mood(isHappy) {
+  // let isHappy = true;
 
-  if (isHappy) {
+  if (isHappy === true) {
     return "I am happy";
   } else {
     return "I am not happy";
@@ -38,7 +38,7 @@ function first5() {
 
 function get3rdIndex(arr) {
   let index = 3;
-  let element;
+  let element = arr[index];
 
   return element;
 }
