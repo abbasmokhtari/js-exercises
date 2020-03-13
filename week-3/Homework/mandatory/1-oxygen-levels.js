@@ -10,8 +10,10 @@ Write a function that finds the oxygen level of the first safe planet - Oxygen b
 */
 
 function safeLevels() {
-
+ 
 }
+
+
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
