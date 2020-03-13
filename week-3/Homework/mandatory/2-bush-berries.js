@@ -10,7 +10,7 @@
   Use the tests to confirm which message to return
 */
 
-let element
+// let element
 function bushChecker (element) {
   let safeToEat = element.every(x => x === 'pink')
   if (safeToEat) {

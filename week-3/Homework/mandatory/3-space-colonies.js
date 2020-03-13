@@ -8,7 +8,7 @@
   NOTE: don't include any element that is not a "family".
 */
 
-let arr
+// let arr
 function colonisers (arr) {
   let arr1 = arr.filter(word => word.indexOf(' ') > 0)
   return (resident = arr1.filter(word => word[0] === 'A'))
