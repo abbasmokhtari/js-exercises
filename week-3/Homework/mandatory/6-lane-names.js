@@ -4,8 +4,8 @@
   Write a function that will return all street names which contain 'Lane' in their name.
 */
 
-function getLanes() {
-
+function getLanes(arr) {
+    return arr.filter(word => word.indexOf(' Lane') > 0);
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
