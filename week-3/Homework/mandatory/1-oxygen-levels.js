@@ -11,6 +11,11 @@ Write a function that finds the oxygen level of the first safe planet - Oxygen b
 
 function safeLevels() {
  
+let oxygen;
+function safeLevels(oxygen) {
+  let strNoPercent = oxygen.map(x => x.slice(0, -1));
+  let safePlanet = strNoPercent.find(x => x > 19.5 && x < 23.5);
+  return safePlanet + '%'
 }
 
 
