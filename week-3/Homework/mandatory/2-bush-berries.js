@@ -9,10 +9,20 @@
 
   Use the tests to confirm which message to return
 */
-let bushColour;
-function bushChecker(bushColour) {
 
+let element;
+function bushChecker(element) {
+let safeToEat = element.every(x => x === "pink");
+if (safeToEat){
+  return `Bush is safe to eat from`
+} else {
+return `Toxic! Leave bush alone!`
 }
+}
+
+
+
+
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
