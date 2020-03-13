@@ -9,8 +9,8 @@
 
   Use the tests to confirm which message to return
 */
-
-function bushChecker() {
+let bushColour;
+function bushChecker(bushColour) {
 
 }
 
