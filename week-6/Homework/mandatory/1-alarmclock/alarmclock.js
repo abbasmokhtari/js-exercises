@@ -6,7 +6,7 @@ let reWrite = document.querySelector('#timeRemaining');
 
 
 alarmBtn.addEventListener('click', function () {
-  reWrite.innerText = 'Time Remaining:00:' + timePut.value;
+  reWrite.innerText = 'Time Remaining:   ' + timePut.value;
 })
 
 
