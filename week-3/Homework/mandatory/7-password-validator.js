@@ -23,9 +23,12 @@ PasswordValidationResult=  [false, false, false, false, true]
 */
 
 function validatePasswords(passwords) {
-
+// return passwords.map(x => x.length > 4)
+return passwords.map(x.match(/[a-z]/i))
 }
 
+
+userName[0] === userName[0].toUpperCase()
 /* ======= TESTS - DO NOT MODIFY ===== */
 
 const passwords1 = ["Se%5", "TktE.TJTU", "384#HsHF", "dvyyeyy!5", "tryT3729"]
